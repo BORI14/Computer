@@ -1,0 +1,56 @@
+nav ul {
+  background-color:grey;
+  border-style:solid;
+  border-color:black;
+  border-width:2px;
+  padding:20px;
+  border-radius:10px;
+}
+
+nav ul li 
+{
+  list-style-type:none;
+  display:inline;
+  margin-right:10px;
+  margin-left:10px;
+  color:PapayaWhip;
+}
+
+main {
+  color:black;
+ }
+ 
+ #owly {
+  width: 50%;
+  border-radius: 100%;
+ }
+ 
+table {
+border-collapse:collapse
+}
+td, th {
+border:7px solid black;
+padding:8px;
+}
+ 
+ #owly:hover {
+  animation-name: rollOver;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+h1 {
+  
+  color:red;
+}
+
+footer {
+  color:blue;
+  
+  
+}
+
+#frontpage {
+   background: repeating-linear-gradient(-45deg, yellow 40% , green 50%, black 40%, white 30%  );
+    background-size: 600vw 600vw;
+    animation: slide 10s infinite linear forwards;
